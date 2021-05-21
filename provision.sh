@@ -2,19 +2,21 @@
 
 DBD_VERSION="1.61.0"
 
-sudo apt install libaio1
+# sudo apt-get -y install libaio1
 
-wget https://github.com/datacharmer/dbdeployer/releases/download/v${DBD_VERSION}/dbdeployer-${DBD_VERSION}.linux.tar.gz
+wget -q https://github.com/datacharmer/dbdeployer/releases/download/v${DBD_VERSION}/dbdeployer-${DBD_VERSION}.linux.tar.gz
 tar zxvf dbdeployer-${DBD_VERSION}.linux.tar.gz
 sudo mv dbdeployer-${DBD_VERSION}.linux /usr/local/bin/dbdeployer
 rm dbdeployer-${DBD_VERSION}.linux.tar.gz
 
 dbdeployer defaults enable-bash-completion --remote --run-it
 
-mkdir -p ~/opt/mysql
+mkdir -p /home/vagrant/opt/mysql
 
-mkdir ~/.dbdeployer
-ln -s /vagrant/dbdeployer-downloads.json ~/.dbdeployer/tarball-list.json
+mkdir /home/vagrant/.dbdeployer
+ln -s /vagrant/dbdeployer-downloads.json /home/vagrant/.dbdeployer/tarball-list.json
+
+chown -R vagrant:vagrant /home/vagrant
 
 ## To add a new version/flavor
 # dbdeployer downloads export mylist.json
