@@ -10,6 +10,7 @@ sudo mv dbdeployer-${DBD_VERSION}.linux /usr/local/bin/dbdeployer
 rm dbdeployer-${DBD_VERSION}.linux.tar.gz
 
 dbdeployer defaults enable-bash-completion --remote --run-it
+rm -f /home/vagrant/dbdeployer_completion.sh
 
 mkdir -p /home/vagrant/opt/mysql
 
