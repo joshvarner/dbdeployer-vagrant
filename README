@@ -1,0 +1,35 @@
+    1  ps aux
+    2  ls
+    3  dbdeployer
+    4  dbdeployer downloads list
+    5  dbdeployer downloads get-unpack Percona-Server-5.7.32-35-Linux.x86_64.glibc2.12-minimal.tar.gz
+    6  dbdeployer downloads get-unpack Percona-Server-8.0.23-14-Linux.x86_64.glibc2.17-minimal.tar.gz
+    7  dbdeployer deploy single 5.7
+    8  ls
+    9  ls opt/
+   10  ls opt/mysql
+   11  ls
+   12  cd sandboxes/
+   13  ls
+   14  cd msb_5_7_32/
+   15  ls
+   16  ./stop
+   17  ./start
+   18  ./my sql
+   19  dbdeployer help
+   20  dbdeployer data-load list
+   21  dbdeployer data-load -help
+   22  dbdeployer data-load get employees msb_5_7_32
+   23  ./my sql
+   24  cd
+   25  dbdeployer deploy --help
+   26  dbdeployer deploy replication --gtid
+   27  dbdeployer deploy replication --gtid 5.7
+   28  cd sandboxes/
+   29  ls
+   30  cd rsandbox_5_7_32/
+   31  ls
+   32  ./m
+   33  ./s1
+   34  ./m
+   35  history

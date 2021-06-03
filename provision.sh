@@ -3,6 +3,7 @@
 DBD_VERSION="1.61.0"
 
 # sudo apt-get -y install libaio1
+sudo apt-get -y install libatomic1 libaio1
 
 wget -q https://github.com/datacharmer/dbdeployer/releases/download/v${DBD_VERSION}/dbdeployer-${DBD_VERSION}.linux.tar.gz
 tar zxvf dbdeployer-${DBD_VERSION}.linux.tar.gz

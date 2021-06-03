@@ -624,6 +624,30 @@
     "notes": "added with version 1.44.0"
    },
    {
+    "name": "mysql-5.7.21-linux-glibc2.12-x86_64.tar.gz",
+    "checksum": "SHA512:f984f559cb83682860d1681a2d3432b8b2cda62a394100376f19a05a5d4cbbfe775d7326cb97b1b1fb80bdc9d0d6aea1ccf1f53946be20f1db5449a52abac89c",
+    "OS": "Linux",
+    "url": "https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-5.7.21-linux-glibc2.12-x86_64.tar.gz",
+    "flavor": "mysql",
+    "minimal": false,
+    "size": 641798603,
+    "short_version": "5.7",
+    "version": "5.7.21",
+    "notes": "added with version 1.44.0"
+   },
+   {
+    "name": "mysql-5.7.32-linux-glibc2.12-x86_64.tar.gz",
+    "checksum": "SHA512:f2412754652b618842f77851e0f58b58c4a6c3844920fea3186942a6609b935e8fc891c42c083943fd03ffef94e357fc69dfbdba615461b2da67713d42bb9a37",
+    "OS": "Linux",
+    "url": "https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-5.7.32-linux-glibc2.12-x86_64.tar.gz",
+    "flavor": "mysql",
+    "minimal": false,
+    "size": 661214270,
+    "short_version": "5.7",
+    "version": "5.7.32",
+    "notes": "added with version 1.44.0"
+   },
+   {
     "name": "mysql-cluster-8.0.19-macos10.15-x86_64.tar.gz",
     "checksum": "SHA512:62739d12c3e9a54b53e66446499ac0c163e7c91929492a5995143cf670e9dddada09eefd2fef65028765d9e7c8ce42a67fd88a7848b565ec12e42e1a977c376f",
     "OS": "Darwin",
@@ -1116,6 +1140,19 @@
     "version": "8.0.23",
     "notes": "added with version 1.61.0",
     "date_added": "2021-05-16 14:21"
+   },
+   {
+    "name": "Percona-Server-5.7.21-21-Linux.x86_64.ssl102.tar.gz",
+    "checksum": "SHA512:d00a449068d95d505495badcf09318c5ee04c69ce3646080ad8f2644aaaae0734617807bfc06236a0f9acd620b20bef33c70fe35c65b98f071b5670d6542a0ec",
+    "OS": "Linux",
+    "url": "https://downloads.percona.com/downloads/Percona-Server-5.7/Percona-Server-5.7.21-21/binary/tarball/Percona-Server-5.7.21-21-Linux.x86_64.ssl102.tar.gz",
+    "flavor": "percona",
+    "minimal": true,
+    "size": 431201723,
+    "short_version": "5.7",
+    "version": "5.7.21",
+    "notes": "added with version 1.61.0",
+    "date_added": "2021-05-21 16:46"
    },
    {
     "name": "Percona-Server-5.7.32-35-Linux.x86_64.glibc2.12-minimal.tar.gz",
